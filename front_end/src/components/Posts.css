@@ -1,0 +1,117 @@
+.posts-container {
+    width: 1600px;/* Enable scrolling if content overflows */
+  }
+  
+  .subtopic-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .subtopic-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d7dadc;
+  }
+  
+  .subscribe-button {
+    background-color: #0079d3;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .add-post-button {
+
+    background-color: #0079d3;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+  }
+  .add-post-button:hover {
+
+    background-color: #005ea2;
+
+  }
+  
+  
+  .subscribe-button:hover {
+    background-color: #005ea2;
+  }
+  
+  .post-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #272729; /* Slightly lighter than background */
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .post-card:hover {
+    background-color: #343536; /* Slight hover effect */
+    transform: translateY(-3px); /* Lift effect */
+  }
+  
+  .post-votes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .upvote,
+  .downvote {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #d7dadc;
+    transition: color 0.3s;
+  }
+  
+  .upvote:hover {
+    color: #ff4500; /* Reddit orange for upvotes */
+  }
+  
+  .downvote:hover {
+    color: #7193ff; /* Blue for downvotes */
+  }
+  
+  .vote-count {
+    font-weight: bold;
+    margin: 5px 0;
+    color: #d7dadc;
+  }
+  
+  .post-content {
+    flex: 1;
+  }
+  
+  .post-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d7dadc;
+  }
+  
+  .post-snippet {
+    color: #a1a1a1; /* Subtle gray for snippets */
+  }
+  
+  .post-author {
+    font-size: 0.85rem;
+    color: #818384; /* Slightly lighter gray */
+  }
+  
