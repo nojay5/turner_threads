@@ -19,11 +19,8 @@ Express.js for server-side routing
 PostgreSQL for the database
 Authentication:
 JWT for secure user authentication
-Hosting:
-GitHub for version control and repository hosting
-Can be extended to AWS or another cloud provider for deployment
-Database Schema
-The app uses PostgreSQL for data persistence. Key tables include:
+
+The app uses PostgreSQL. Key tables include:
 
 users: Stores user information (e.g., ID, username, hashed password, email).
 topics: Contains topic names and descriptions.
